@@ -1,0 +1,97 @@
+div.loginOutside
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	height: 100%;
+	width: 100%;
+}
+
+div.arkaPanel
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20, 20, 20,0.8);
+}
+
+div.loginInside
+{
+	width: 800px;
+	height: 600px;
+	border-radius: 40px;
+	box-shadow: rgba(0, 0, 0, 0.25) 30px 180px 60px -60px inset, rgba(0, 0, 0, 0.3) 0px -90px 60px 15px inset;
+/*	background-color:rgba(66,120,20,0.9);*/
+background-color:rgba(80,120,160,0.20);
+}
+.yaziGolgeli
+{
+	font-family: "Roboto Mono", monospace;
+	font-weight: bolder;
+}
+input.inputClass
+{
+/*	background: rgb(360,240,120,0.35);*/
+background-color: rgba(120,120,120,0.9);
+color:black; 
+font-weight:bolder;
+font-size:18px;
+}
+
+
+@font-face {
+	font-family:"golgeliYazi";
+	src: url("../../Resources/FontStyles/LondrinaShadow-Regular.ttf") format("truetype");
+}
+
+
+
+button {
+  font-family: inherit;
+  color: white;
+}
+
+
+.slide {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 30px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.slide i {
+  opacity: 0;
+  font-size: 13px;
+  transition: 0.2s;
+  position: absolute;
+  right: 10px;
+  top: 21px;
+  transition: transform 1;
+}
+.slide div {
+  transition: transform 0.8s;
+}
+
+.slide:hover div {
+  transform: translateX(-6px);
+}
+
+.slide::after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.slide:hover i {
+  opacity: 1;
+  transform: translateX(-6px);
+}

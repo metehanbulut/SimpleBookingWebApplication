@@ -1,0 +1,22 @@
+div.divBackground
+{
+	background-color: rgba(220,220,220,0.4);
+	
+}
+img.cardFotoClass
+{
+	max-height: 85%;
+	min-height: 25%;
+	max-width: 85%;
+	min-width: 75%;
+	margin: 5px;
+}
+div.cardBackGround{
+background: transparent;
+}
+div.imageDiv
+{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}

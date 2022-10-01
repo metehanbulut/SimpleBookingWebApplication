@@ -1,0 +1,23 @@
+:root
+{
+	--yaziBuyuklugu: 20px;
+	--buttonYaziBuyuklugu: 16px;
+	--renk:  rgba(0,0,0,0.45);
+}
+/*rgba(60,40,80,0.3);*/
+#navbarOzel
+{
+  font-family: "Audiowide", sans-serif;
+}
+nav{
+background:var(--renk);
+font-size: var(--yaziBuyuklugu);
+}
+a.navbar-brand{
+font-size: var(--yaziBuyuklugu);
+}
+button.navbarbutonu{
+font-size: var(--buttonYaziBuyuklugu);
+font-weight: bolder;
+color: rgb(75,75,75);
+}

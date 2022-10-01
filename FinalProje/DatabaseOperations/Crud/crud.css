@@ -1,0 +1,32 @@
+.baslik
+{
+	font-size: 96px;
+}
+.basarili
+{
+	color: lightseagreen;	
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	justify-self:center;
+	height: 100%;
+	width: 100%;
+	font-weight: bolder;
+	
+}
+.basarisiz
+{
+	color: orangered;	
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	justify-self:center;
+	height: 100%;
+	width: 100%;
+	font-weight: bolder;
+
+}

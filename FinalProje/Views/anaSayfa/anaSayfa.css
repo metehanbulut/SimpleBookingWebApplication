@@ -1,0 +1,19 @@
+/*:root
+{
+	--path: "../../Resources/Images/Background/background-huge.jpg";
+}*/
+
+img.ozel{
+	display: none;
+}
+p{
+	color: white;
+}
+.carousel-item
+{
+	width: 600px;
+	height: 800px;
+}
+img{
+	width: 75%;
+}
